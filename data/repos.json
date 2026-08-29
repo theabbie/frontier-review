@@ -1,0 +1,12 @@
+[
+  { "name": "axios", "path": "data/repos/axios_axios" },
+  { "name": "express", "path": "data/repos/expressjs_express" },
+  { "name": "fastify", "path": "data/repos/fastify_fastify" },
+  { "name": "lodash", "path": "data/repos/lodash_lodash" },
+  { "name": "typescript", "path": "data/repos/microsoft_TypeScript" },
+  { "name": "prettier", "path": "data/repos/prettier_prettier" },
+  { "name": "react.dev", "path": "data/repos/reactjs_react.dev" },
+  { "name": "awesome", "path": "data/repos/sindresorhus_awesome" },
+  { "name": "got", "path": "data/repos/sindresorhus_got" },
+  { "name": "vue", "path": "data/repos/vuejs_vue" }
+]

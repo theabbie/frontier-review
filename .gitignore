@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local data (repository snapshots, evaluation outputs, trajectories)
+data/repos/
+data/evaluation-results.md
+data/trajectories/*.jsonl
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+*.log
+
+# Project guidance and non-root markdown docs (kept local for agent continuity)
+PROJECT_GUIDELINES.md
+docs/
+
+# Agent trajectory records
+*.trajectory.jsonl
