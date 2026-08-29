@@ -4,10 +4,8 @@ node_modules/
 # Build output
 dist/
 
-# Local data (repository snapshots, evaluation outputs, trajectories)
+# Local repository snapshots (cloned for evaluation; not committed)
 data/repos/
-data/evaluation-results.md
-data/trajectories/*.jsonl
 
 # Environment and secrets
 .env
@@ -17,6 +15,9 @@ data/trajectories/*.jsonl
 # OS / editor
 .DS_Store
 *.log
+
+# playwright-cli artifacts
+.playwright-cli/
 
 # Project guidance and non-root markdown docs (kept local for agent continuity)
 PROJECT_GUIDELINES.md
